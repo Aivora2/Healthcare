@@ -1,0 +1,41 @@
+<svg viewBox="0 0 500 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bluePinGrad" x1="50" y1="50" x2="450" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0072CE" />
+      <stop offset="50%" stop-color="#0052B4" />
+      <stop offset="100%" stop-color="#003580" />
+    </linearGradient>
+
+    <linearGradient id="greenCrossGrad" x1="150" y1="100" x2="350" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C896" />
+      <stop offset="100%" stop-color="#009E7A" />
+    </linearGradient>
+
+    <linearGradient id="tealHandsGrad" x1="50" y1="300" x2="450" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00B894" />
+      <stop offset="100%" stop-color="#008068" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pin Shape -->
+  <path d="M250 25 C155 25 80 100 80 195 C80 295 212.5 400 250 430 C287.5 400 420 295 420 195 C420 100 345 25 250 25 Z" fill="url(#bluePinGrad)" />
+  <circle cx="250" cy="185" r="100" fill="#FFFFFF" />
+
+  <!-- Green Cross -->
+  <path d="M225 120 H275 V160 H315 V210 H275 V250 H225 V210 H185 V160 H225 V120 Z" fill="url(#greenCrossGrad)" />
+
+  <!-- Top-Right Heart -->
+  <path d="M355 55 C342 55 332 62 327 72 C322 62 312 55 299 55 C281 55 269 68 269 85 C269 115 327 145 327 145 C327 145 385 115 385 85 C385 68 373 55 355 55 Z" fill="#00B894" transform="rotate(12 327 88)" />
+
+  <!-- Cradling Hands -->
+  <path d="M60 250 C60 337.5 137.5 450 237.5 470 C205 425 130 350 110 275 C100 260 80 235 60 250 Z" fill="url(#tealHandsGrad)" />
+  <path d="M440 250 C440 337.5 362.5 450 262.5 470 C295 425 370 350 390 275 C400 260 420 235 440 250 Z" fill="url(#tealHandsGrad)" />
+
+  <!-- Text -->
+  <text x="250" y="510" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="52">
+    <tspan fill="#0047AB">Health</tspan><tspan fill="#00A887">Link</tspan>
+  </text>
+  <text x="250" y="540" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="20" fill="#526E8C" letter-spacing="3">
+    YOUR HEALTH • OUR PRIORITY
+  </text>
+</svg>
